@@ -1,0 +1,87 @@
+html
+{
+	background-color: ;
+	font-size: medium;
+    font-family: SF Pro Rounded Courant, Verdana, Gill Sans Fin, Gill Sans, serif;
+    font-style: normal;
+    text-align: center;
+}
+
+
+nav
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+nav ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: red;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	
+	
+	
+}
+
+#topphoto
+{
+	margin-top: 0;
+	margin-left: 0;
+	width: 100%
+	
+
+}
+
+#logo
+{
+	width: 100px;
+	float: left;
+	margin-top: 16px;
+}
+
+section a img
+{
+	height: 35px;
+}
+
+nav li
+{
+	float: left;
+	background-color: red;
+}
+
+nav li a
+{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+nav li a:hover
+{
+	background-color: black;
+	text-align: center;
+}
+
+#Accueil
+{
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+
+
+
