@@ -1,15 +1,18 @@
 html
 {
-	background-color: ;
-	font-size: medium;
+	background-color: white;
+	font-size: normal;
     font-family: SF Pro Rounded Courant, Verdana, Gill Sans Fin, Gill Sans, serif;
     font-style: normal;
     text-align: center;
+    font-weight: lighter;
+
 }
 
 
 nav
 {
+	font-size: normal;
 	margin: 0;
 	padding: 0;
 }
@@ -17,13 +20,14 @@ nav
 
 nav ul
 {
+	font-size: normal;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: red;
 	width: 100%;
-	top: 0;
+	top: 0;	
 	position: fixed;
 	
 	
@@ -53,12 +57,14 @@ section a img
 
 nav li
 {
+	font-size: normal;
 	float: left;
 	background-color: red;
 }
 
 nav li a
 {
+	font-size: normal;
 	display: block;
     color: white;
     text-align: center;
@@ -74,14 +80,116 @@ nav li a:hover
 	text-align: center;
 }
 
+#Accueil h1
+{
+	margin-top: 6px;
+}
 #Accueil
 {
+	font-size: 18px;
 	text-align: left;
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-top: -4%;
+}
+
+#Calendrier
+{
+	font-size: 21px;
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20%;
+	margin-bottom: 10%;
+
+}
+
+#Calendrier a 
+{
+	text-decoration: underline;
+	color: black;
+	
+}
+
+#Calendrier a:hover
+{
+	color: red;
+}
+
+#banniere
+{
+	width: 100%
+}
+
+#Accueil h1
+{
+	color: white;
+}
+
+#Calendrier h1
+{
+	padding-bottom: 3%;
+}
+
+.calendrier2021
+{
+	border-collapse: collapse;
+}
+
+.calendrier2021 td 
+{
+	border: 1px solid black;
+}
+
+.calendrier2021 caption
+{
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+th
+{
+	text-align: center;
 }
 
 
+footer
+{
+	padding-top: 25px;
+	background-color: #191922;
+	width: 100%;
 
+}
+
+footer a
+{
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover
+{
+	color: #14FF00
+}
+
+footer h1
+{
+	
+	font-size: 16px;
+	color: white;
+}
+
+footer button
+{
+	border-radius: 10px;
+	background-color: #00D1FF
+
+}
+
+footer button:hover
+{
+	background-color: #FFA300;
+	color: #F32C16;
+}
 
 
